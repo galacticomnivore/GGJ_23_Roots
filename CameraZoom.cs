@@ -12,7 +12,7 @@ public class CameraZoom : MonoBehaviour
     public float MaxZoomIn;
     public float MaxZoomOut;
 
-    
+    // Start is called before the first frame update
     void Start()
     {
         ZoomCamera = Camera.main;
